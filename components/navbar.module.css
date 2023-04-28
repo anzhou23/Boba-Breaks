@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    padding: 0.5rem;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    z-index: 10;
+  }
+
+.logo {
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: #00bbf9;
+}
+
+.links {
+   display: flex;
+}
+
+.link {
+   color: #000;
+   font-weight: bold;
+   margin-right: 3rem;
+   text-decoration: none;
+}
+
+.link:hover {
+   color: #00bbf9;
+}
+
+/*Media query for smaller screens */
+@media screen and (max-width: 768px) {
+   .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+   }
+}
