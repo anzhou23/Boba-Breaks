@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './card.module.css';
 import Pill from './Pill';
 import { FaTwitter, FaLinkedin, FaInstagram, FaGlobe, FaYoutube, FaTiktok } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Card = ({
   image, title, description, link, hasLink, hasImage, tags,
@@ -19,7 +20,7 @@ const Card = ({
 
   return (
     <div className={styles.card}>
-      {hasImage && <img src={image} alt={title} className={styles.image} />}
+      {hasImage && <Image src={image} alt={title} className={styles.image} />}
       <div className={styles.content}>
         <div className={styles.tags}>
           {tags && tags.map(tag => (
@@ -39,7 +40,7 @@ const Card = ({
                     &times;
                   </button>
                   {hasImage && (
-                    <img src={image} alt={title} className={styles.popupImage} />
+                    <Image src={image} alt={title} className={styles.popupImage} />
                   )}
                   <h2 className={styles.popupTitle}>{popupTitle || title}</h2>
                   <p className={styles.description}>{description}</p>

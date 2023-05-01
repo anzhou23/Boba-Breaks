@@ -8,7 +8,7 @@ function HomePage() {
         <div>
             <section>
                 <h1 style={{ fontSize: '2.5rem' }}>Welcome! ☺</h1>
-                <p>If you've found your way here, you're likely in the midst of considering a change in your
+                <p>If you&apos;ve found your way here, you&apos;re likely in the midst of considering a change in your
                 career. This is your go-to community for all things related to exploring new career paths.</p>
                 <p>“The realization of impermanence is paradoxically the only thing we can hold onto, perhaps our
                     only lasting possession. It is like the sky, or the earth. No matter how much everything around
@@ -56,7 +56,7 @@ function HomePage() {
                             {text: 'Tech', color: '#ffadad'},
                             {text: 'Real Estate', color: '#caffbf'}
                         ]}
-                        popupDescription="Samantha Carow is the co-founder and CTO of DwellWell. She’s
+                        popupDescription="Samantha Carow is the co-founder and CTO of DwellWell. She
                         spent the majority of her career in startups, from Preact (acquired by Spotify
                         in 2016) to Reddit, and is now using her engineering prowess and leadership
                         to bring home buying into the 21st century with DwellWell. Sam is passionate
@@ -98,7 +98,7 @@ function HomePage() {
                             {text: 'VC', color: '#fefae0'},
                         ]}
                         popupDescription="Meagan is a thought leader at the intersection of Gen Z &
-                        innovation. She coined the term 'Gen Z VC' in her 1st article and started the Gen Z
+                        innovation. She coined the term &apos;Gen Z VC&apos; in her 1st article and started the Gen Z
                         VCs Slack community (now 19k+ strong) in November 2020, which has grown into a much
                         larger movement centered around empowering the next generation of Gen Z innovators."
                         hasPopup={true}
@@ -209,7 +209,7 @@ function HomePage() {
                         executive vice president and publisher of Marvel Comics. Lee co-created Spider-Man, the Hulk,
                         Doctor Strange, the Fantastic Four, Iron Man, Daredevil, Thor, the X-Men, and many other
                         fictional characters, introducing a thoroughly shared universe into superhero comic books. In
-                        addition, he challenged the comics' industry's censorship organization, the Comics Code Authority,
+                        addition, he challenged the comics&apos; industry&apos;s censorship organization, the Comics Code Authority,
                         indirectly leading to it updating its policies. Lee subsequently led the expansion of Marvel Comics
                         from a small division of a publishing house to a large multimedia corporation."
                         hasPopup={true}
@@ -230,7 +230,7 @@ function HomePage() {
                         now has over 500,000 subscribers and 4 million monthly views. Later, she joined Mandy Teefey and
                         Selena Gomez to launch WonderMind, a media company focusing on mental health and aiming to normalize
                         it and reduce stigma. WonderMind sets itself apart from wellness apps and therapy platforms, with a
-                        goal of 'getting into the dirt of what could really help people,' says Teefey, who leads the
+                        goal of &apos;getting into the dirt of what could really help people,&apos; says Teefey, who leads the
                         creative content of the company."
                         hasPopup={true}
                         twitter={"https://twitter.com/fromdaniella"}
@@ -320,9 +320,9 @@ function HomePage() {
                         ]}
                         popupDescription="Over the last decade, Justin has helped build two $50M+ ARR companies, teams of 150+ people,
                         and raise over $300M in venture capital. Then, in 2019, he burned out. Now he runs a boutique advisory firm for
-                        entrepreneurs and create digital products for creators. When he's not advising and building products, he's an angel
-                        investor, a mentor to entrepreneurs in LATAM with 500 Startups, and an LP at GTM Fund, a rolling fund investing $4
-                        million per year into early-stage B2B SaaS companies."
+                        entrepreneurs and create digital products for creators. When he&apos;s not advising and building products, he&apos;s
+                        an angel investor, a mentor to entrepreneurs in LATAM with 500 Startups, and an LP at GTM Fund, a rolling fund
+                        investing $4 million per year into early-stage B2B SaaS companies."
                         hasPopup={true}
                         twitter={"https://twitter.com/thejustinwelsh"}
                         linkedin={"https://www.linkedin.com/in/justinwelsh/"}
@@ -339,11 +339,11 @@ function HomePage() {
                             {text: 'Tech', color: '#ffadad'},
                             {text: 'Content', color: '#ffd6a5'},
                         ]}
-                        popupDescription="Mayuko Inoue is a content creator and Software Engineer. After working in Silicon Valley tech companies
-                        like Intuit, Patreon, and Netflix for six years as an iOS Engineer, she became a full-time creator in 2020. Her work aims
-                        to help people find their way through the tech industry by sharing her own experiences navigating this world through
-                        technology, career advice, and lifestyle videos. She is passionate about discussions around mental health, cultural
-                        identity, and creating technology with empathy and compassion."
+                        popupDescription="Mayuko Inoue is a content creator and Software Engineer. After working in Silicon Valley
+                        tech companies like Intuit, Patreon, and Netflix for six years as an iOS Engineer, she became a full-time
+                        creator in 2020. Her work aims to help people find their way through the tech industry by sharing her own
+                        experiences navigating this world through technology, career advice, and lifestyle videos. She is passionate
+                        about discussions around mental health, cultural identity, and creating technology with empathy and compassion."
                         hasPopup={true}
                         twitter={"https://twitter.com/hellomayuko"}
                         instagram={"http://instagram.com/hellomayuko"}
@@ -360,9 +360,9 @@ function HomePage() {
                             {text: 'Personal Care', color: '#bdb2ff'},
                         ]}
                         popupDescription="Rowena Tsai is a productivity and wellness YouTuber who focuses on encouraging her
-                        peers to take an honest and sober look at their lives to see if they're living the life they proactively choose to
-                        live. And if they're not, to find the courage to do something about it. She is also the host and co-producer of
-                        Beauty Within and hosts a podcast Voice Hugs with her friend Vivian Van."
+                        peers to take an honest and sober look at their lives to see if they&apos;re living the life they proactively
+                        choose to live. And if they&apos;re not, to find the courage to do something about it. She is also the host
+                        and co-producer of Beauty Within and hosts a podcast Voice Hugs with her friend Vivian Van."
                         hasPopup={true}
                         linkedin={"https://www.linkedin.com/in/rowenatsai"}
                         instagram={"https://www.instagram.com/rowenatsai/"}
@@ -383,7 +383,7 @@ function HomePage() {
                          Jiu-Jitsu, Eliot entered the world of mixed martial arts in 2006, eventually competing in TUF and then signing with
                          the UFC. In 2011, after a few ups and downs with his MMA career, Marshall decided to hang up his gloves and open
                          training centers across the mile-high city of Denver, Colorado, formally named Easton Training Center along with his
-                         coach Amal Easton. It wasn’t long before Marshall went on to further success as an entrepreneur, Podcast host, and
+                         coach Amal Easton. It wasn&apos;t long before Marshall went on to further success as an entrepreneur, Podcast host, and
                          world-class speaker, trainer, and author."
                         hasPopup={true}
                         twitter={"https://twitter.com/FireMarshall205"}
@@ -403,13 +403,13 @@ function HomePage() {
                         ]}
                         popupDescription="Codie is the founder and CEO of Contrarian Thinking, with over 2.5+ million subscribers. She is
                         the co-founder of Unconventional Acquisitions, focused on small business acquisitions in the micro-PE space with an
-                        emphasis on roll-ups. She runs a holding company of SMB’s below $10M EBITDA focused upon what she calls “boring
-                        businesses,” or service-based businesses. She is a former partner at private equity firm EEC, and built First Trust’s
-                        $1 billion+ AUM Latin America business. She held leadership positions at Goldman Sachs, State Street, and Vanguard.
-                        She started as a journalist where she won the JFK award and Howard Buffett Foundation. She was listed as a 25 Most
-                        Innovative Leader in Cannabis, and a Top Female Investor by Forbes. She has an M.B.A. from Georgetown University,
-                        a master’s from ESADE and Fundação Getúlio Vargas, and a B.A. from Arizona State University. She sits on the board of
-                        Permian Investment, and Magma Partners Chilean Venture Fund."
+                        emphasis on roll-ups. She runs a holding company of SMB&apos;s below $10M EBITDA focused upon what she calls “boring
+                        businesses,” or service-based businesses. She is a former partner at private equity firm EEC, and built First
+                        Trust&apos;s $1 billion+ AUM Latin America business. She held leadership positions at Goldman Sachs, State Street,
+                        and Vanguard. She started as a journalist where she won the JFK award and Howard Buffett Foundation. She was listed
+                        as a 25 Most Innovative Leader in Cannabis, and a Top Female Investor by Forbes. She has an M.B.A. from Georgetown
+                        University, a master&apos;s from ESADE and Fundação Getúlio Vargas, and a B.A. from Arizona State University. She
+                        sits on the board of Permian Investment, and Magma Partners Chilean Venture Fund."
                         hasPopup={true}
                         twitter={"https://twitter.com/codie_sanchez"}
                         linkedin={"https://www.linkedin.com/in/codiesanchez"}
@@ -694,7 +694,7 @@ function HomePage() {
                     <Card
                         image="../images/hubstaff.png"
                         title="Hubstaff Talent"
-                        description="Free way to find the world's best remote talent"
+                        description="Free way to find the world&apos;s best remote talent"
                         tags={[
                             {text: 'Side Hustles', color: '#bdb2ff'}
                         ]}
@@ -729,7 +729,7 @@ function HomePage() {
 
                     <Card
                         image="../images/lennys.png"
-                        title="Lenny’s Talent Collective"
+                        title="Lenny&apos;s Talent Collective"
                         description="Find product-building roles at world-class companies"
                         tags={[
                             {text: 'Tech', color: '#ffadad'},
@@ -755,7 +755,7 @@ function HomePage() {
                     <Card
                         image="../images/wellfound.png"
                         title="wellfound"
-                        description="Jobs you can't find anywhere else"
+                        description="Jobs you can&apos;t find anywhere else"
                         tags={[
                             {text: 'Tech', color: '#ffadad'},
                             {text: 'Remote', color: '#ffd6a5'},
@@ -1062,7 +1062,7 @@ function HomePage() {
                     <Card
                         image="../images/themuse.png"
                         title="The Muse"
-                        description="Find work  that's worth it"
+                        description="Find work that&apos;s worth it"
                         tags={[
                             {text: 'General', color: '#caffbf'},
                         ]}
@@ -1138,7 +1138,7 @@ function HomePage() {
                     />
 
                     <Card
-                        description="An IDEO Recruiter’s 5 Tips for Writing a Better Cover Letter"
+                        description="An IDEO Recruiter&apos;s 5 Tips for Writing a Better Cover Letter"
                         tags={[
                             {text: 'Career Advancement', color: '#ffadad'},
                         ]}
@@ -1210,7 +1210,7 @@ function HomePage() {
                     />
 
                     <Card
-                        description="Why some of us don't have one true calling"
+                        description="Why some of us don&apos;t have one true calling"
                         tags={[
                             {text: 'Career Pivot', color: '#ffd6a5'},
                         ]}
@@ -1318,7 +1318,7 @@ function HomePage() {
                     />
 
                     <Card
-                        description="Jacinda Ardern’s Resignation Is A Lesson For Anyone Who Has Burnout At Work"
+                        description="Jacinda Ardern&apos;s Resignation Is A Lesson For Anyone Who Has Burnout At Work"
                         tags={[
                             {text: 'Work-Life Balance', color: '#9bf6ff'},
                         ]}
