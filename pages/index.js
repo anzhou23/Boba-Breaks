@@ -8,20 +8,20 @@ function HomePage() {
         <div>
             <section>
                 <h1 style={{ fontSize: '2.5rem' }}>{`Welcome! ☺`}</h1>
-                <p>{`If you&apos;ve found your way here, you&apos;re likely in the midst of considering a change in your
-                career. This is your go-to community for all things related to exploring new career paths.`}</p>
-                <p>{`“The realization of impermanence is paradoxically the only thing we can hold onto, perhaps our
+                <p>If you&apos;ve found your way here, you&apos;re likely in the midst of considering a change in your
+                career. This is your go-to community for all things related to exploring new career paths.</p>
+                <p>“The realization of impermanence is paradoxically the only thing we can hold onto, perhaps our
                     only lasting possession. It is like the sky, or the earth. No matter how much everything around
-                    us may change or collapse, they endure.`}”
+                    us may change or collapse, they endure.”
                 </p>
-                <p>{`- Sogyal Rinpoche`}</p>
+                <p>- Sogyal Rinpoche</p>
             </section>
 
             <section>
                 <section id="people">
                     <Banner title="Get Inspired" />
                 </section>
-                <p>{`Your next adventure is waiting. Inspo from success career pivoters.`}</p>
+                <p>Your next adventure is waiting. Inspo from success career pivoters.</p>
 
                 <CardContainer>
                     <Card
@@ -425,7 +425,7 @@ function HomePage() {
                 <section id="learn">
                     <Banner title="Explore Around" />
                 </section>
-                <p>{`Mix things up. A curated selection of resources to take your career to the next level.`}</p>
+                <p>Mix things up. A curated selection of resources to take your career to the next level.</p>
 
                 <CardContainer>
                     <Card
@@ -628,7 +628,7 @@ function HomePage() {
                 <section id="jobs">
                     <Banner title="Find A New Role" />
                 </section>
-                <p>{`Make every day a dream. Find roles you never knew existed.`}</p>
+                <p>Make every day a dream. Find roles you never knew existed.</p>
 
                 <CardContainer>
                     <Card
@@ -1089,7 +1089,7 @@ function HomePage() {
                 <section id="advice">
                     <Banner title="Tips to Stay Afloat" />
                 </section>
-                <p>{`Articles, stories, quotes, and videos.`}</p>
+                <p>Articles, stories, quotes, and videos.</p>
 
                 <CardContainer>
                     <Card
