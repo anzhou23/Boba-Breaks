@@ -35,11 +35,10 @@ const Card = ({
           src={`/images/${image}`}
           alt={title}
           className={styles.image}
-          width={imageWidth}
-          height={imageWidth * 0.75} // Set the height to maintain the aspect ratio of the image
+          width={250}
+          height={200}
         />
       )}
-      {/* {hasImage && <Image src={image} alt={title} className={styles.image} width={'100%'} height={'auto'} />} */}
       <div className={styles.content}>
         <div className={styles.tags}>
           {tags && tags.map(tag => (
@@ -59,7 +58,7 @@ const Card = ({
                     &times;
                   </button>
                   {hasImage && (
-                    <Image src={image} alt={title} className={styles.popupImage} />
+                    <Image src={`/images/${image}`} alt={title} className={styles.popupImage} width={250} height={200} />
                   )}
                   <h2 className={styles.popupTitle}>{popupTitle || title}</h2>
                   <p className={styles.description}>{description}</p>
