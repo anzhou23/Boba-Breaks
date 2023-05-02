@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import styles from './card.module.css';
 import Pill from './Pill';
 import { FaTwitter, FaLinkedin, FaInstagram, FaGlobe, FaYoutube, FaTiktok } from 'react-icons/fa';
@@ -9,6 +9,16 @@ const Card = ({
   popupTitle, popupDescription, hasPopup,
   twitter, linkedin, instagram, youtube, tiktok, website }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const cardRef = useRef(null);
+  const [imageWidth, setImageWidth] = useState(0);
+
+  useEffect(() => {
+    // Calculate the width of the container element when the component mounts or updates
+    const cardElement = cardRef.current;
+    const cardWidth = cardElement.offsetWidth;
+    setImageWidth(cardWidth);
+  }, []);
+
 
   const handleOpenModal = () => {
     setIsModalOpen(true);
@@ -19,8 +29,17 @@ const Card = ({
   };
 
   return (
-    <div className={styles.card}>
-      {hasImage && <Image src={image} alt={title} className={styles.image} />}
+    <div className={styles.card} ref={cardRef}>
+      {hasImage && (
+        <Image
+          src={`/images/${image}`}
+          alt={title}
+          className={styles.image}
+          width={imageWidth}
+          height={imageWidth * 0.75} // Set the height to maintain the aspect ratio of the image
+        />
+      )}
+      {/* {hasImage && <Image src={image} alt={title} className={styles.image} width={'100%'} height={'auto'} />} */}
       <div className={styles.content}>
         <div className={styles.tags}>
           {tags && tags.map(tag => (
@@ -29,7 +48,7 @@ const Card = ({
         </div>
         <h2 className={styles.title}>{title}</h2>
         <p className={styles.description}>{description}</p>
-        {hasLink && <a href={link} className={styles.link}>Launch ↗️</a>}
+        {hasLink && <a href={link} className={styles.link}>Launch ↗</a>}
         {hasPopup && (
           <>
             <button onClick={handleOpenModal} className={styles.viewProfileButton}>View Profile</button>
